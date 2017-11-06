@@ -1,0 +1,10 @@
+body{
+	margin: 0;
+}
+
+.circulo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, .5);
+}
