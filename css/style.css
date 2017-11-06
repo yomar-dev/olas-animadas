@@ -31,7 +31,9 @@ body{
 	height: 427px;
 	background: url('../images/waves.png') center bottom no-repeat;
 	position: absolute;
-	animation: 5s wave infinite alternate;
+	left: -180px;
+	bottom: 0;
+	animation: 5s wave ease-in-out infinite alternate;
 }
 
 .wave.a{
