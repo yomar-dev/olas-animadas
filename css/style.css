@@ -2,6 +2,21 @@ body{
 	margin: 0;
 }
 
+.container{
+	height: 500px;
+	background: #0f9bf6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content{
+	font-family: Arial;
+	text-align: center;
+	font-size: 2em;
+	color: rgba(255, 255, 255, .8);
+}
+
 .circulo{
 	width: 200px;
 	height: 200px;
@@ -17,10 +32,6 @@ body{
 
 .circulo.c{
 	animation-delay: 2s;
-}
-
-.container{
-	position: absolute;
 }
 
 @keyframes wave {
