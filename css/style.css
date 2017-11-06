@@ -21,10 +21,9 @@ body{
 
 .waves{
 	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 200px;
+	bottom: -135px;
+	height: 527px;
+	width: 100%;
 }
 
 .wave{
@@ -35,12 +34,18 @@ body{
 	animation: 5s wave infinite alternate;
 }
 
-.circulo.b{
-	animation-delay: 1s;
+.wave.a{
+	background-position: 0 -854px;
 }
 
-.circulo.c{
-	animation-delay: 2s;
+.wave.b{
+	background-position: 0 -427px;
+	animation-delay: .6s;
+}
+
+.wave.c{
+	background-position: 0 0px;
+	animation-delay: 1.2s;
 }
 
 @keyframes wave {
